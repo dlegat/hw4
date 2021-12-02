@@ -15,6 +15,7 @@
     - create database "hw4"
     - test connection: \c hw4
 4. (Optional if DBeaver is used) Connect to newly created DB with matching parameters from database.js
+5. Run all commands in db-data.sql
 
 ### Set up Node.JS app
 1. npm init -y
