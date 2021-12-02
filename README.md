@@ -3,7 +3,7 @@
 ## Stack preparation
 
 ### Optional posgresql through Brew
-1. Install Homebrew: $ /bin/bash -c "$(curl -fsSl .sh)"
+1. Install Homebrew: /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 2. brew install postgresql
 3. brew install node
 
@@ -11,7 +11,7 @@
 1. brew services start postgresql
 2. (Optional GUI install) brew install --cask dbeaver-community
 3. Configure DB
-    - psql postgres -U $$$Username NOTE: MUST MATCH POOL in database.js$$$
+    - psql postgres -U USERNAME_OF_YOUR_CHOICE [Username NOTE: MUST MATCH POOL in database.js]
     - create database "hw4"
     - test connection: \c hw4
 4. (Optional if DBeaver is used) Connect to newly created DB with matching parameters from database.js
